@@ -13,4 +13,14 @@ export class UsersService {
         return this.repo.save(user);
     }
 
+    findOne(id: number) {
+        return this.repo.findOne(id);
+    }
+
+    find(email: string) {
+        return this.repo.find({ email })
+    }
+
+    
+
 }
