@@ -10,3 +10,10 @@ Content-Type: application/json
 
 ### Find a particular user with id 1
 GET http://localhost:3000/auth/1
+
+
+### Find all users with a given email
+GET http://localhost:3000/auth?email=divya@gmail.com
+
+### Delete a particular user with id 1
+DELETE  http://localhost:3000/auth/1
