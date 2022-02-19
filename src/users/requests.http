@@ -1,5 +1,16 @@
-### Create a new user
+#########################################
+### SignUp
 POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email":"divya1@gmail.com",
+    "password":"12345678"
+}
+
+#########################################
+### SignIn
+POST http://localhost:3000/auth/signin
 Content-Type: application/json
 
 {
