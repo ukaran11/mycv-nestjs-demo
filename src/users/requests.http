@@ -39,3 +39,10 @@ Content-Type: application/json
     "password":"12345678"
 }
 
+
+### Set a color
+GET http://localhost:3000/auth/colors/red
+
+### Get the color
+GET http://localhost:3000/auth/colors
+
