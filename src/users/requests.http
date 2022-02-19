@@ -4,7 +4,7 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-    "email":"divya1@gmail.com",
+    "email":"divya2@gmail.com",
     "password":"12345678"
 }
 
@@ -14,7 +14,7 @@ POST http://localhost:3000/auth/signin
 Content-Type: application/json
 
 {
-    "email":"divya1@gmail.com",
+    "email":"divya2@gmail.com",
     "password":"12345678"
 }
 
@@ -38,11 +38,3 @@ Content-Type: application/json
     "email":"utsav@gmail.com",
     "password":"12345678"
 }
-
-
-### Set a color
-GET http://localhost:3000/auth/colors/red
-
-### Get the color
-GET http://localhost:3000/auth/colors
-
